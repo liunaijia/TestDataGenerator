@@ -37,7 +37,7 @@ var orderDatabase = DatabaseFactory.CreateDatabase("order");
 Func<object> orderBuilder = () => new {
     OrderId = Guid.NewGuid(),
     Year = DataGenerator.From(2014, 2015, 2016).Random(),
-    CustomerId = DataGenerator.From(customerDatabase, "select customer_id from customers").Random(),
+    CustomerId = DataGenerator.From(orderDatabase, "select customer_id from customers").Random(),
     CustomerEmail = DataGenerator.FromRegex(@"[a-z]{3,10}@(gmail|yahoo|outlook)\.com").Random(),
     CreatedBy = DataGenerator.From(orderDatabase, "select id from staff").Random(),
     CreatedAt = DataGenerator.FromDateRangeInDeltaDays(-30).Random()
