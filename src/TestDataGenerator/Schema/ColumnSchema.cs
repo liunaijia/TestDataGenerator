@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Common;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DataProducer.Data.Schema {
+namespace TestDataGenerator.Schema {
     public class ColumnSchema {
         public string Name { get; set; }
         public string DataType { get; set; }

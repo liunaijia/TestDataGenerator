@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Data;
 
-namespace DataProducer.Data
+namespace TestDataGenerator.Data
 {
     public interface IDatabase {
         int ExecuteNonQuery(string sql, object parameters = null);

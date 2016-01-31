@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using RegExHelper;
 
-namespace DataProducer.Data.Fixtures {
-    public class RegexDataFixtures : DataFixtures {
+namespace TestDataGenerator.Generators {
+    public class RegexDataGenerator : DataGenerator {
         private readonly RegExpDataGenerator regexGenerator;
 
-        public RegexDataFixtures(string pattern) {
+        public RegexDataGenerator(string pattern) {
             regexGenerator = new RegExpDataGenerator(pattern);
         }
 

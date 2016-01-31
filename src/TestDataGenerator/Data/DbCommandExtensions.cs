@@ -2,9 +2,9 @@
 using System.Data.Common;
 using System.Collections;
 
-namespace DataProducer.Data
+namespace TestDataGenerator.Data
 {
-    public static class DbCommandExtensions1
+    public static class DbCommandExtensions
     {
         public static void SetParameters(this DbCommand cmd, object parameters)
         {

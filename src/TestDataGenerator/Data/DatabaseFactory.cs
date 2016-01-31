@@ -1,4 +1,4 @@
-﻿namespace DataProducer.Data
+﻿namespace TestDataGenerator.Data
 {
     public class DatabaseFactory
     {

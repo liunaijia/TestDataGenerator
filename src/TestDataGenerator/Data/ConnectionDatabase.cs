@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Configuration;
 
-namespace DataProducer.Data
+namespace TestDataGenerator.Data
 {
     public class ConnectionDatabase : IDatabase
     {

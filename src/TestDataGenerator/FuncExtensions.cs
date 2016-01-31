@@ -5,11 +5,10 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using DataProducer.Data;
-using DataProducer.Data.Schema;
+using TestDataGenerator.Data;
+using TestDataGenerator.Schema;
 
-namespace DataProducer
-{
+namespace TestDataGenerator {
     public class BuildResult<T>
     {
         private readonly Func<T> builder;

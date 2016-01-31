@@ -1,12 +1,10 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TestDataGenerator.Data;
 
-namespace DataProducer.Data.Fixtures {
+namespace TestDataGenerator.Generators {
     public class DatabaseQueryWithCache {
         private static readonly IDictionary<string, IList> Cache = new Dictionary<string, IList>();
         private readonly IDatabase database;

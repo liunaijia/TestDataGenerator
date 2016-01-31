@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DataProducer.Data.Fixtures {
-    public class DiscreteDataFixtures : DataFixtures {
+namespace TestDataGenerator.Generators {
+    public class DiscreteDataGenerator : DataGenerator {
         private readonly static Random RandomGenerator = new Random();
         private readonly IList data;
 
-        public DiscreteDataFixtures(IList data) {
+        public DiscreteDataGenerator(IList data) {
             this.data = data;
         }
 

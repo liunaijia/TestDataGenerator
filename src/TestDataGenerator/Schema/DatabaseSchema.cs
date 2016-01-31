@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TestDataGenerator.Data;
 
-namespace DataProducer.Data.Schema {
+namespace TestDataGenerator.Schema {
     public class DatabaseSchema {
         private readonly static IDictionary<string, TableSchema> Cache = new Dictionary<string, TableSchema>();
         private readonly IDatabase database;

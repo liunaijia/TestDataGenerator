@@ -52,17 +52,16 @@
     <Compile Include="Data\CommandDatabase.cs" />
     <Compile Include="Data\ConnectionDatabase.cs" />
     <Compile Include="Data\DatabaseFactory.cs" />
-    <Compile Include="Data\DatabaseRandomQueryExtensions.cs" />
     <Compile Include="Data\DbCommandExtensions.cs" />
-    <Compile Include="Data\Fixtures\DatabaseQueryWithCache.cs" />
-    <Compile Include="Data\Fixtures\DataFixtures.cs" />
-    <Compile Include="Data\Fixtures\DateRangeDataFixtures.cs" />
-    <Compile Include="Data\Fixtures\DiscreteDataFixtures.cs" />
-    <Compile Include="Data\Fixtures\RegexDataFixtures.cs" />
+    <Compile Include="Generators\DatabaseQueryWithCache.cs" />
+    <Compile Include="Generators\DataGenerator.cs" />
+    <Compile Include="Generators\DateRangeDataGenerator.cs" />
+    <Compile Include="Generators\DiscreteDataGenerator.cs" />
+    <Compile Include="Generators\RegexDataGenerator.cs" />
     <Compile Include="Data\IDatabase.cs" />
-    <Compile Include="Data\Schema\ColumnSchema.cs" />
-    <Compile Include="Data\Schema\DatabaseSchema.cs" />
-    <Compile Include="Data\Schema\TableSchema.cs" />
+    <Compile Include="Schema\ColumnSchema.cs" />
+    <Compile Include="Schema\DatabaseSchema.cs" />
+    <Compile Include="Schema\TableSchema.cs" />
     <Compile Include="FuncExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
