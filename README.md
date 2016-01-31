@@ -16,8 +16,8 @@ Another general requirement when creating test data is that columns can have the
 
 ## Quick Start Guide
 
-##### Step 1 Configurate connection string
-```
+##### Step1 Configurate connection string
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <connectionStrings>
@@ -26,8 +26,8 @@ Another general requirement when creating test data is that columns can have the
 </configuration>
 ```
 
-##### Step 2 Use Test Data Generator API to generate data in database
-```
+##### Step2 Use Test Data Generator API to generate data in database
+```c#
 using TestDataGenerator;
 using TestDataGenerator.Data;
 using TestDataGenerator.Generators;
