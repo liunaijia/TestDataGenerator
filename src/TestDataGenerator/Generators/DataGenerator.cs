@@ -5,6 +5,10 @@ namespace TestDataGenerator.Generators {
     public abstract class DataGenerator {
         public abstract object Random();
 
+        public virtual object Sequence() {
+            throw new NotImplementedException();
+        }
+
         public static DataGenerator From(IDatabase database, string sql, object parameters = null) {
             var query = new DatabaseQueryWithCache(database);
             var result = query.Query(sql, parameters);
