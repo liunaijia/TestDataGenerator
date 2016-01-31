@@ -2,11 +2,10 @@
 > A library that generates test data in database.
 
 ## Features
-* Fast inserting data
-
+##### Fast inserting data
 Test Data Generator uses bulk copy to insert a large number of data rows into database.
 
-* Generate data on the basis of Regular Expression
+##### Generate data on the basis of Regular Expression
 
 Regular Expressions are usually used to validate input data format. By contrast, Test Data Generator uses Regular Expressions to define the data format rules then generates data that match these rules.
 
